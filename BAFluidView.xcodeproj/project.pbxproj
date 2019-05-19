@@ -17,7 +17,7 @@
 /* Begin PBXFileReference section */
 		659E9DFA1B58E7E70029FE32 /* BAFluidView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BAFluidView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		659E9DFE1B58E7E70029FE32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		659E9DFF1B58E7E70029FE32 /* BAFluidView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BAFluidView.h; sourceTree = "<group>"; };
+		659E9DFF1B58E7E70029FE32 /* BAFluidView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BAFluidView_export.h; sourceTree = "<group>"; };
 		659E9E3E1B58E8ED0029FE32 /* BAFluidView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BAFluidView.h; path = Pod/Classes/BAFluidView.h; sourceTree = SOURCE_ROOT; };
 		659E9E3F1B58E8ED0029FE32 /* BAFluidView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BAFluidView.m; path = Pod/Classes/BAFluidView.m; sourceTree = SOURCE_ROOT; };
 		659E9E401B58E8ED0029FE32 /* UIColor+ColorWithHex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+ColorWithHex.h"; path = "Pod/Classes/UIColor+ColorWithHex.h"; sourceTree = SOURCE_ROOT; };
