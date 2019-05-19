@@ -14,7 +14,6 @@
 		0AE212F7CDA9749547620FE976BA88F4 /* EXPMatchers+conformTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 48AFE2DFEA20C5199BFF10BAB33A2C42 /* EXPMatchers+conformTo.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		11370609D1CD9B9107F787C3BB5B4492 /* EXPMatchers+beTruthy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BD7841F4D1E9CCA786B228B8744295A /* EXPMatchers+beTruthy.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		16EECFDFA7E96E43C25246290D59B6F1 /* Specta-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D66CA5975D94FEF6626FA04B04D0CD21 /* Specta-dummy.m */; };
-		18127A646D0FF6F15D93512DFA46B241 /* Constants.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AA6F636E70DA4551A6CA408974337E8 /* Constants.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		197BD0EAF2B8B8E1DA7B65B82E27133A /* EXPMatchers+beIdenticalTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B4B8D5DD763D03043C786A401175A85 /* EXPMatchers+beIdenticalTo.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		1CBF9A754FEBA4FD0E5D8AD2EB3FFCD9 /* EXPUnsupportedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B51E5A2ADA643131D3F61F1009FD26C /* EXPUnsupportedObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		1D3FD5DC79C94F2EA00FE6A5B86C2C80 /* SpectaUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 21BBA799069CBB6823260DD72E60355D /* SpectaUtility.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -185,7 +184,6 @@
 		25482E58ADE5F1B0CE8893995961DD84 /* SpectaUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SpectaUtility.m; path = Specta/Specta/SpectaUtility.m; sourceTree = "<group>"; };
 		275F7B84B9776CF09F5FF2423B145372 /* EXPMatcherHelpers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPMatcherHelpers.m; path = Expecta/Matchers/EXPMatcherHelpers.m; sourceTree = "<group>"; };
 		290E9FCCDD3395FD76A18F588DB92335 /* EXPMatchers+beLessThan.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beLessThan.h"; path = "Expecta/Matchers/EXPMatchers+beLessThan.h"; sourceTree = "<group>"; };
-		2AA6F636E70DA4551A6CA408974337E8 /* Constants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = Pod/Classes/Constants.h; sourceTree = "<group>"; };
 		2F7CA23D808E0519B2E74238F4698968 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		31215477494DD8F16B89727CFBB0B22A /* libBAFluidView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libBAFluidView.a; path = libBAFluidView.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		32018F4E987608913904B02CFCC8C633 /* EXPBlockDefinedMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPBlockDefinedMatcher.m; path = Expecta/EXPBlockDefinedMatcher.m; sourceTree = "<group>"; };
@@ -443,7 +441,6 @@
 			children = (
 				0768181D6406FD45E8CF25EFB1F3C190 /* BAFluidView.h */,
 				C37A24FE253582A5D953A6DF54F9037B /* BAFluidView.m */,
-				2AA6F636E70DA4551A6CA408974337E8 /* Constants.h */,
 				4F9B4928FB6DD65CC4EE2AF7EC95E1B5 /* UIColor+ColorWithHex.h */,
 				81ECFA8335CAE55FB5AA97BEA23501BE /* UIColor+ColorWithHex.m */,
 				96E6F6AB7299583B89F6700E172E36E1 /* Pod */,
@@ -664,7 +661,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9AC4E9B92BB2EFF6269D18E076F28DD7 /* BAFluidView.h in Headers */,
-				18127A646D0FF6F15D93512DFA46B241 /* Constants.h in Headers */,
 				C0697AEEAA07103AED268DEE71212CD7 /* UIColor+ColorWithHex.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

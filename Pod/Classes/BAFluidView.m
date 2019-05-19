@@ -22,7 +22,6 @@
 
 #import "BAFluidView.h"
 #import "UIColor+ColorWithHex.h"
-#import "Constants.h"
 #import <CoreMotion/CoreMotion.h>
 
 NSString * const kBAFluidViewCMMotionUpdate = @"BAFluidViewCMMotionUpdate";

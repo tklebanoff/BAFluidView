@@ -20,7 +20,20 @@
 //OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 //SOFTWARE.
 
-#import "Constants.h"
+#import <Foundation/Foundation.h>
+
+/**
+ Enum for direction of waves (changes based on tilt)
+ */
+typedef enum {
+    BAFLUIDVIEWHORIZONTALDIRECTIONLEFT,
+    BAFLUIDVIEWHORIZONTALDIRECTIONRIGHT
+} BAFLUIDVIEWHORIZONTALDIRECTION;
+
+@interface Constants : NSObject
+
+@end
+
 #import <UIKit/UIKit.h>
 
 @interface BAFluidView : UIView
